@@ -4,6 +4,7 @@ import reactRefresh from '@vitejs/plugin-react-refresh';
 export default defineConfig({
 	plugins: [reactRefresh()],
 	esbuild: {
-		jsxInject: `import React from 'react'`,
+		jsxFactory: 'jsx',
+		jsxInject: `import { jsx } from '@emotion/react'`,
 	},
 });

@@ -8,6 +8,7 @@
 		"resolveJsonModule": true,
 		"importsNotUsedAsValues": "error",
 		"noEmit": true,
-		"jsx": "react-jsx"
+		"jsx": "react-jsx",
+		"jsxImportSource": "@emotion/react"
 	}
 }
