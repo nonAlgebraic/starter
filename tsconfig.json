@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"moduleResolution": "Node",
+		"target": "ESNext",
+		"module": "ESNext",
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"importsNotUsedAsValues": "error",
+		"noEmit": true,
+		"jsx": "react-jsx"
+	}
+}
