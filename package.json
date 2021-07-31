@@ -7,7 +7,7 @@
 		"dev": "vite",
 		"build": "vite build",
 		"serve": "vite preview",
-		"lint": "eslint ."
+		"lint": "eslint --ignore-path=.gitignore ."
 	},
 	"author": "Sine Gadot (https://github.com/nonAlgebraic)",
 	"license": "MIT",
