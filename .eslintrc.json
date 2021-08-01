@@ -21,7 +21,12 @@
 		"plugin:prettier/recommended"
 	],
 	"rules": {
-		"react/react-in-jsx-scope": 0,
-		"@typescript-eslint/explicit-module-boundary-types": 0
+		"import/order": ["error",  {
+			"alphabetize": {
+				"order": "asc" 
+			}
+		}],
+		"react/react-in-jsx-scope": "off",
+		"@typescript-eslint/explicit-module-boundary-types": "off"
 	}
 }
