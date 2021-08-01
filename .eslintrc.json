@@ -18,14 +18,19 @@
 		"plugin:react/recommended",
 		"plugin:react-hooks/recommended",
 		"plugin:jsx-a11y/recommended",
+		"plugin:jest/recommended",
+		"plugin:jest/style",
 		"plugin:prettier/recommended"
 	],
 	"rules": {
-		"import/order": ["error",  {
-			"alphabetize": {
-				"order": "asc" 
+		"import/order": [
+			"error",
+			{
+				"alphabetize": {
+					"order": "asc"
+				}
 			}
-		}],
+		],
 		"react/react-in-jsx-scope": "off",
 		"@typescript-eslint/explicit-module-boundary-types": "off"
 	}

@@ -1,0 +1,13 @@
+{
+	"testEnvironment": "jsdom",
+	"snapshotSerializers": ["@emotion/jest/serializer"],
+	"transform": {
+		"^.+\\.tsx?$": [
+			"esbuild-jest-transform",
+			{
+				"jsxFactory": "jsx",
+				"inject": ["misc/inject-jsx.js"]
+			}
+		]
+	}
+}
