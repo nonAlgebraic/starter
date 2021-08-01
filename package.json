@@ -13,6 +13,7 @@
 	"author": "Sine Gadot (https://github.com/nonAlgebraic)",
 	"license": "MIT",
 	"dependencies": {
+		"@emotion/react": "^11",
 		"react": "^17",
 		"react-dom": "^17",
 		"vite": "^2"
