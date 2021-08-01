@@ -5,10 +5,10 @@
 		"module": "ESNext",
 		"strict": true,
 		"forceConsistentCasingInFileNames": true,
+		"allowSyntheticDefaultImports": true,
 		"resolveJsonModule": true,
 		"importsNotUsedAsValues": "error",
 		"noEmit": true,
-		"jsx": "react-jsx",
-		"jsxImportSource": "@emotion/react"
+		"jsx": "react"
 	}
 }

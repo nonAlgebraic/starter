@@ -1,5 +1,5 @@
-import * as styles from './styles';
+import React from 'react';
 
-const Welcome = () => <div css={styles.container}>Hello!</div>;
+const Welcome = () => <div>Hello!</div>;
 
 export default Welcome;
